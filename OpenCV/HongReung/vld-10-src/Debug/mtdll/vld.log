@@ -1,0 +1,15 @@
+﻿  vldutil.cpp
+c:\workspaces\opencv\hongreung\vld-10-src\vldutil.h(37): fatal error C1083: 포함 파일을 열 수 없습니다. '..\crt\src\dbgint.h': No such file or directory
+  vldapi.cpp
+c:\workspaces\opencv\hongreung\vld-10-src\vldint.h(41): warning C4005: '__out_xcount': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\specstrings_strict.h(202): note: '__out_xcount'의 이전 정의를 참조하십시오.
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: 'typedef ': 변수를 선언하지 않으면 '' 왼쪽은 무시됩니다.
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: 'typedef ': 변수를 선언하지 않으면 '' 왼쪽은 무시됩니다.
+c:\workspaces\opencv\hongreung\vld-10-src\vldint.h(44): fatal error C1083: 포함 파일을 열 수 없습니다. 'dbgint.h': No such file or directory
+  vld.cpp
+c:\workspaces\opencv\hongreung\vld-10-src\vldint.h(41): warning C4005: '__out_xcount': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\shared\specstrings_strict.h(202): note: '__out_xcount'의 이전 정의를 참조하십시오.
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: 'typedef ': 변수를 선언하지 않으면 '' 왼쪽은 무시됩니다.
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: 'typedef ': 변수를 선언하지 않으면 '' 왼쪽은 무시됩니다.
+c:\workspaces\opencv\hongreung\vld-10-src\vldint.h(44): fatal error C1083: 포함 파일을 열 수 없습니다. 'dbgint.h': No such file or directory
+  코드를 생성하고 있습니다...

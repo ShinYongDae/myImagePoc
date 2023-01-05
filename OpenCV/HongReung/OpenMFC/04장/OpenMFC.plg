@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenMFC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/OpenMFC.res" /d "NDEBUG" /d "_AFXDLL" "D:\vcproject\04장\OpenMFC_4장\OpenMFC.rc"" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP159.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OpenMFC.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vcproject\04장\OpenMFC_4장\ChildFrm.cpp"
+"D:\vcproject\04장\OpenMFC_4장\MainFrm.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFC.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFCDoc.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFCView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP159.tmp" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OpenMFC.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vcproject\04장\OpenMFC_4장\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15A.tmp" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+cxcore.lib cv.lib highgui.lib cvcam.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/OpenMFC.pdb" /machine:I386 /out:"Release/OpenMFC.exe" 
+".\Release\ChildFrm.obj"
+".\Release\MainFrm.obj"
+".\Release\OpenMFC.obj"
+".\Release\OpenMFCDoc.obj"
+".\Release\OpenMFCView.obj"
+".\Release\StdAfx.obj"
+".\Release\OpenMFC.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+MainFrm.cpp
+OpenMFC.cpp
+OpenMFCDoc.cpp
+OpenMFCView.cpp
+Generating Code...
+D:\vcproject\04장\OpenMFC_4장\OpenMFCDoc.cpp(209) : warning C4700: local variable 'palette' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+OpenMFC.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: OpenMFC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/OpenMFC.res" /d "_DEBUG" /d "_AFXDLL" "D:\vcproject\04장\OpenMFC_4장\OpenMFC.rc"" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/OpenMFC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vcproject\04장\OpenMFC_4장\ChildFrm.cpp"
+"D:\vcproject\04장\OpenMFC_4장\MainFrm.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFC.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFCDoc.cpp"
+"D:\vcproject\04장\OpenMFC_4장\OpenMFCView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15D.tmp" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/OpenMFC.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vcproject\04장\OpenMFC_4장\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15E.tmp" 
+Creating temporary file "C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+cxcored.lib cvd.lib highguid.lib cvcam.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/OpenMFC.pdb" /debug /machine:I386 /out:"Debug/OpenMFC.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\MainFrm.obj"
+".\Debug\OpenMFC.obj"
+".\Debug\OpenMFCDoc.obj"
+".\Debug\OpenMFCView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\OpenMFC.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\CONV2~1.CON\LOCALS~1\Temp\RSP15F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+MainFrm.cpp
+OpenMFC.cpp
+OpenMFCDoc.cpp
+OpenMFCView.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/OpenMFC.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ChildFrm.sbr" ".\Debug\MainFrm.sbr" ".\Debug\OpenMFC.sbr" ".\Debug\OpenMFCDoc.sbr" ".\Debug\OpenMFCView.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+OpenMFC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
