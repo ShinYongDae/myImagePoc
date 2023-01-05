@@ -1,0 +1,8 @@
+Initialized
+0 true 0
+running? false
+Threads in pool after shutdown(): 0
+Submitted threads: 90000
+Finished!
+Total render time: 0m, 8s
+File Saved as Image-July-25,-2019-11h-9m.png!
